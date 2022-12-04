@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - TutorialRequirement
+  - New tag
+  - 2
+  - SwordEnemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - MapBackGround
+  - Water
+  - UI
+  - Player
+  - Chain
+  - Shield
+  - Sword
+  - Map
+  - Enemy
+  - SkeletonSword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 3016460649
+    locked: 0
+  - name: 2
+    uniqueID: 4117085613
+    locked: 0
+  - name: PlayerSort
+    uniqueID: 3727245717
+    locked: 0

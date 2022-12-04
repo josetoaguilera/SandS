@@ -1,0 +1,926 @@
+fileFormatVersion: 2
+guid: 6d1bc47a945136c49b83dc021ce52334
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 203
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e53ab98b3ddeb42b033ccdced899f6
+      internalID: 1268037183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 203
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954d3fec6c3a84145bf3f8814853bf9a
+      internalID: -1729882066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 202
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539a7d4fc4d6e9340b2ca1e8f7997de4
+      internalID: -49662294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 201
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543a45c5eeee2a64cb7fa23ff6844728
+      internalID: -1202041476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 202
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e910f77de8e9eca4093ccc998a546b2b
+      internalID: -252553552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 203
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f105039ca2f843b9ba877a8fcbe5f
+      internalID: 2133944092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 204
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160837309e2c9214aa17415206a1e1f8
+      internalID: 415433190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 205
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dc20cb0392d8344b43c4531e6fcb6c
+      internalID: 1092019198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 204
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c15ccaa068930468b15034f27a1d4c
+      internalID: 1827091310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171063972b6a8e2498ed07a1e2144163
+      internalID: 1109323500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d916cb6f12284b8163495002a5ae0
+      internalID: 351587097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_11
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c140ab1b7ac184a8b6d3cfb1628863
+      internalID: 1167932828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76438ba99c3fc064eb7ff1feea54d455
+      internalID: 2002639690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c8b0b468722c84984a58381f84d2d4
+      internalID: 978755993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_14
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 140
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98d2d498f7720d469795de8eaa54f85
+      internalID: -638208316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ed7a43ff0c4b04caf7df88d80c7995
+      internalID: -1097745672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_16
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 139
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f82a7573085511429a6933565822611
+      internalID: 1780575257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_17
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 138
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e7056371c75ff4db81570321433dd0
+      internalID: -275103720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f36f40bbfed28e48aec73872e0749ed
+      internalID: -1180565415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_19
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55770921e44b62941aab30e6b7d4d29d
+      internalID: -972178703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_20
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c93d6c5c8438f488c8617f1821203c
+      internalID: -1901311383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_21
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c603e4fe0de946a4bbbe71b2cfac86e2
+      internalID: -444971993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 72
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab77f40cb303b274f8b78aee82c84e5e
+      internalID: -1278885030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_23
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b0f52f7428de24ea335a93a874f3fb
+      internalID: -2111905069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 70
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263a476ff7ba61b4fbcae30fdc2f7a0c
+      internalID: -1331432917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_25
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 69
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c9d2da276c7fa4d862e07d25700cfb
+      internalID: 157179968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_26
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 70
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ebbcca021dff7488df52cb356ef91d
+      internalID: -1828039758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_27
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fb27a0b7b1b6947abaa2aacebc7a29
+      internalID: -1539632076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c102328956e1ef5418b8ac8267e4eb3f
+      internalID: -1119139182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252f9bdfd923c804cad5b7d56da2147b
+      internalID: -1168813971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 10
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a5992e3fc73bd4c8705df9122a0a6d
+      internalID: 648319986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3166b88eb0d17a24ea7e8ddbc4b45e8c
+      internalID: -831076298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_32
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 12
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d764d4439e46824eaa3648ea52f62db
+      internalID: 266726549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_33
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc0c38152915df498029b8ce898648d
+      internalID: -656598104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_34
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 11
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24314657dd1f994aac261b5133aba5b
+      internalID: 401295629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WEAPON_shield_cutout_chain_armor_helmet_35
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 10
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb28778631e629949913710af347fb40
+      internalID: 96429367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WEAPON_shield_cutout_chain_armor_helmet_23: -2111905069
+      WEAPON_shield_cutout_chain_armor_helmet_1: -1729882066
+      WEAPON_shield_cutout_chain_armor_helmet_2: -49662294
+      WEAPON_shield_cutout_chain_armor_helmet_10: 351587097
+      WEAPON_shield_cutout_chain_armor_helmet_18: -1180565415
+      WEAPON_shield_cutout_chain_armor_helmet_16: 1780575257
+      WEAPON_shield_cutout_chain_armor_helmet_33: -656598104
+      WEAPON_shield_cutout_chain_armor_helmet_3: -1202041476
+      WEAPON_shield_cutout_chain_armor_helmet_5: 2133944092
+      WEAPON_shield_cutout_chain_armor_helmet_11: 1167932828
+      WEAPON_shield_cutout_chain_armor_helmet_17: -275103720
+      WEAPON_shield_cutout_chain_armor_helmet_25: 157179968
+      WEAPON_shield_cutout_chain_armor_helmet_7: 1092019198
+      WEAPON_shield_cutout_chain_armor_helmet_26: -1828039758
+      WEAPON_shield_cutout_chain_armor_helmet_4: -252553552
+      WEAPON_shield_cutout_chain_armor_helmet_13: 978755993
+      WEAPON_shield_cutout_chain_armor_helmet_21: -444971993
+      WEAPON_shield_cutout_chain_armor_helmet_12: 2002639690
+      WEAPON_shield_cutout_chain_armor_helmet_27: -1539632076
+      WEAPON_shield_cutout_chain_armor_helmet_20: -1901311383
+      WEAPON_shield_cutout_chain_armor_helmet_8: 1827091310
+      WEAPON_shield_cutout_chain_armor_helmet_19: -972178703
+      WEAPON_shield_cutout_chain_armor_helmet_22: -1278885030
+      WEAPON_shield_cutout_chain_armor_helmet_35: 96429367
+      WEAPON_shield_cutout_chain_armor_helmet_24: -1331432917
+      WEAPON_shield_cutout_chain_armor_helmet_0: 1268037183
+      WEAPON_shield_cutout_chain_armor_helmet_30: 648319986
+      WEAPON_shield_cutout_chain_armor_helmet_28: -1119139182
+      WEAPON_shield_cutout_chain_armor_helmet_34: 401295629
+      WEAPON_shield_cutout_chain_armor_helmet_32: 266726549
+      WEAPON_shield_cutout_chain_armor_helmet_6: 415433190
+      WEAPON_shield_cutout_chain_armor_helmet_9: 1109323500
+      WEAPON_shield_cutout_chain_armor_helmet_29: -1168813971
+      WEAPON_shield_cutout_chain_armor_helmet_14: -638208316
+      WEAPON_shield_cutout_chain_armor_helmet_15: -1097745672
+      WEAPON_shield_cutout_chain_armor_helmet_31: -831076298
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
