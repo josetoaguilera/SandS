@@ -26,15 +26,16 @@ public class Enemy : Mover
 		//ojo con Game Manager
 		playerTransform = GameObject.Find("Player").transform;
 		startingPosition = transform.position;
-		hitbox = transform.GetChild (0).GetComponent<BoxCollider2D> ();
+		hitbox = transform.GetChild(0).GetComponent<BoxCollider2D>();
 	}
 
 	private void FixedUpdate()
 	{
 		//esta en rango?
-		if (Vector3.Distance (playerTransform.position, startingPosition) < chaseLenght) 
+		if (Vector3.Distance(playerTransform.position, startingPosition) < chaseLenght) 
 		{
-			chasing = Vector3.Distance (playerTransform.position, startingPosition) < triggerLenght;
+			if (Vector3.Distance(playerTransform.position, startingPosition) < triggerLenght)
+				chasing = true;
 
 			if (chasing)
 			{
@@ -52,6 +53,8 @@ public class Enemy : Mover
 			chasing = false;
 		}
 
+	
+
 
 		//revisar si esta sobreponiendose
 		collidingWithPlayer = false;
@@ -68,5 +71,11 @@ public class Enemy : Mover
 
 			hits [i] = null;
 		}
+	}
+
+	protected override void Death ()
+	{
+		Destroy (gameObject);
+	
 	}
 }
