@@ -10,10 +10,12 @@ public class Enemy : Mover
 	//Logica
 	public float triggerLenght = 1;
 	public float chaseLenght = 5;
+	public float stoppinglenght = 0.1f;
 	private bool chasing;
 	private bool collidingWithPlayer;
 	private Transform playerTransform;
 	private Vector3 startingPosition;
+	private Vector3 actualPos;
 
 	//Hitbox
 	private BoxCollider2D hitbox;
@@ -27,6 +29,7 @@ public class Enemy : Mover
 		playerTransform = GameObject.Find("Player").transform;
 		startingPosition = transform.position;
 		hitbox = transform.GetChild(0).GetComponent<BoxCollider2D>();
+		actualPos = startingPosition;
 	}
 
 	private void FixedUpdate()
@@ -39,8 +42,13 @@ public class Enemy : Mover
 
 			if (chasing)
 			{
-				if (!collidingWithPlayer)
+				if(Vector3.Distance(playerTransform.position, actualPos) <= stoppinglenght){
+					UpdateMotor (startingPosition - transform.position);
+					chasing = false;
+				}
+				else if (!collidingWithPlayer)
 				{
+					actualPos = (playerTransform.position - transform.position).normalized;
 					UpdateMotor ((playerTransform.position - transform.position).normalized);
 				}
 			} else {
