@@ -29766,6 +29766,21 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!114 &748644057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748644049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38dfbc48cdd2394daeda7612be7ff35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitpoint: 10
+  maxHitpoint: 10
+  pushRecoverySpeed: 0.2
 --- !u!1 &750160052
 GameObject:
   m_ObjectHideFlags: 0
@@ -29782,6 +29797,7 @@ GameObject:
   - component: {fileID: 750160061}
   - component: {fileID: 750160062}
   - component: {fileID: 750160063}
+  - component: {fileID: 750160064}
   m_Layer: 6
   m_Name: Player_Mouse
   m_TagString: Player
@@ -29979,6 +29995,21 @@ MonoBehaviour:
   hitpoint: 10
   maxHitpoint: 10
   pushRecoverySpeed: 0.2
+--- !u!114 &750160064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750160052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38dfbc48cdd2394daeda7612be7ff35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitpoint: 10
+  maxHitpoint: 10
+  pushRecoverySpeed: 0.2
 --- !u!1 &762830498
 GameObject:
   m_ObjectHideFlags: 0
@@ -30049,6 +30080,21 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!114 &813312403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813312395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38dfbc48cdd2394daeda7612be7ff35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitpoint: 10
+  maxHitpoint: 10
+  pushRecoverySpeed: 0.2
 --- !u!1 &822516864
 GameObject:
   m_ObjectHideFlags: 0
@@ -58900,6 +58946,7 @@ GameObject:
   - component: {fileID: 1977678781}
   - component: {fileID: 1977678782}
   - component: {fileID: 1977678783}
+  - component: {fileID: 1977678784}
   m_Layer: 6
   m_Name: Player_KeyBoard
   m_TagString: Untagged
@@ -59053,6 +59100,21 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e583d14073c86c4a9a78a79e8d76b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitpoint: 10
+  maxHitpoint: 10
+  pushRecoverySpeed: 0.2
+--- !u!114 &1977678784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977678774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38dfbc48cdd2394daeda7612be7ff35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hitpoint: 10
