@@ -52,11 +52,13 @@ public class Enemy : Mover
 					UpdateMotor ((playerTransform.position - transform.position).normalized);
 				}
 			} else {
+				actualPos = (playerTransform.position - transform.position).normalized;
 				UpdateMotor (startingPosition - transform.position);
 			}
 		}
 		else 
 		{
+			actualPos = (playerTransform.position - transform.position).normalized;
 			UpdateMotor (startingPosition - transform.position);
 			chasing = false;
 		}

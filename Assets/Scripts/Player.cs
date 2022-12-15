@@ -8,11 +8,11 @@ public class Player : Mover
 	private void FixedUpdate()
 	{
 		
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+        //float x = Input.GetAxisRaw("Horizontal");
+        //float y = Input.GetAxisRaw("Vertical");
 
-		if(isAlive)
-			UpdateMotor (new Vector3 (x, y, 0));
+		//if(isAlive)
+			//UpdateMotor (new Vector3 (x, y, 0));
 	}
 	protected override void Death ()
 	{

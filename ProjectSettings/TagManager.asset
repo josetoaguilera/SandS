@@ -8,6 +8,7 @@ TagManager:
   - New tag
   - 2
   - SwordEnemy
+  - Fighter
   layers:
   - Default
   - TransparentFX
