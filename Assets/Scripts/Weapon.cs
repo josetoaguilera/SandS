@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Weapon : Collidable
 {
+	private Animator animator;
+
 	//Daño
 	public int damagePoint = 1;
 	public float pushForce = 2.0f;
@@ -20,6 +22,7 @@ public class Weapon : Collidable
 	{
 		base.Start();
 		spriteRenderer = GetComponent<SpriteRenderer> ();
+		animator = (this.transform.parent).transform.parent.transform.parent.gameObject.GetComponent<Animator>();
 	}
 
 	protected override void Update()
@@ -38,14 +41,17 @@ public class Weapon : Collidable
 
 	private void Swing()
 	{
+		animator.Play("Attack");
 		Debug.Log ("Swing");
 	}
 
+	/*
 	protected override void OnCollide(Collider2D coll)
 	{
-		if (coll.tag == "SwordEnemy") 
+		//dano al enemigo por medio del player
+		if (coll.tag == "Player" && this.tag == "Fighter") 
 		{
-			if (coll.name == "Player")
+			if (coll.name == "Sword")
 				return;
 
 			//objeto de daño
@@ -59,8 +65,22 @@ public class Weapon : Collidable
 			coll.SendMessage ("ReceiveDamage", dmg);
 		}
 
-
 	}
+
+	void onCollisionEnter(Collision other) {
+        Debug.Log("aaaaaaa");
+    }
+
+    void OnTriggerEnter(Collider other) {
+        Debug.Log("aaa");
+        /*
+        if (other.gameObject.GetComponent<SistemaVidas>() != null) {
+            other.gameObject.GetComponent<SistemaVidas>().QuitarVida(10);
+        }
+        
+    }
+    */
+    
 
 }
 

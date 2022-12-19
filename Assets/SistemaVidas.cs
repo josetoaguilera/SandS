@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SistemaVidas : MonoBehaviour
 {
+    [SerializeField] private HealthbarBehaviour Healthbar;
     public float maxVida = 3;
     public float vidaActual;
 
@@ -13,7 +14,9 @@ public class SistemaVidas : MonoBehaviour
 
     private void Start() {
         vidaActual = maxVida;
+        Healthbar.SetHealth(vidaActual, maxVida);
     }
+
     private void Update() {
         if (vidaActual > maxVida) {
             vidaActual = maxVida;
@@ -29,6 +32,7 @@ public class SistemaVidas : MonoBehaviour
             return;
         }
         vidaActual -= daño;
+        Healthbar.SetHealth(vidaActual, maxVida);
         StartCoroutine(TiempoInmortal());
     } 
 
@@ -37,7 +41,9 @@ public class SistemaVidas : MonoBehaviour
     }
 
     public void Muerte() {
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
+        GameManager.instance.deathMenuAnim.SetTrigger("Show");
+
     }
 
     IEnumerator TiempoInmortal() {
