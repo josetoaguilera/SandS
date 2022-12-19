@@ -7,6 +7,7 @@ public class SkeletonSword : MonoBehaviour
     public float Hitpoints;
     public float MaxHitpoints = 2;
     public HealthbarBehaviour Healthbar;
+    private GameObject controler;
 
     // Start is called before the first frame update
     void Start()
@@ -19,16 +20,17 @@ public class SkeletonSword : MonoBehaviour
     void Update()
     {
         //Healthbar.SetHealth(Hitpoints, MaxHitpoints);
+        if (Hitpoints <= 0)
+        {
+            Destroy(gameObject);
+            //uno mas para el contador de destruidos
+            controler.gameObject.GetComponent<EnemyController>().addEnemigosEliminados();
+        }
     }
     public void TakeHit(float damage)
     {
         Hitpoints -= damage;
         Healthbar.SetHealth(Hitpoints, MaxHitpoints);
-
-        if (Hitpoints <= 0)
-        {
-            Destroy(gameObject);
-        }
     }
 
     private void OnTriggerEnter(Collider other) {

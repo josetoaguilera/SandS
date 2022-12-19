@@ -5,6 +5,7 @@ using System.Linq;
 
 public class EnemyController : MonoBehaviour
 {
+    public int EnemigosEliminados;
     //private float minX, maxX, minY, maxY;
     [SerializeField] private Transform[] puntosSimples;
     [SerializeField] private Transform puntoBoss;
@@ -30,6 +31,11 @@ public class EnemyController : MonoBehaviour
         maxY = puntos.Max(punto => punto.position.y);
         maxY = puntos.Min(punto => punto.position.y); */
         timeNextEnemy = 0;
+        EnemigosEliminados = 0;
+    }
+    public void addEnemigosEliminados(){
+        EnemigosEliminados++;
+        Debug.Log("uno menos en la lista");
     }
 
     private void CreateEnemy(int EnemyNumber, int HowMany){
@@ -49,6 +55,10 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(EnemigosEliminados >= 16){
+            //mostrar el you win
+            Debug.Log("Ganaste");
+        }
         timeNextEnemy += Time.deltaTime;
         if (timeNextEnemy >= BossBurst && 1 != Done[3])
         {
