@@ -10,6 +10,7 @@ TagManager:
   - SwordEnemy
   - Fighter
   - Enemy
+  - Econtroller
   layers:
   - Default
   - TransparentFX

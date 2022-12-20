@@ -12,6 +12,8 @@ public class SistemaVidas : MonoBehaviour
     public bool inmortal = false;
     public float tiempoInmortal = 1.0f;
 
+    //public GameObject MW;
+
     private void Start() {
         vidaActual = maxVida;
         Healthbar.SetHealth(vidaActual, maxVida);
@@ -42,7 +44,11 @@ public class SistemaVidas : MonoBehaviour
 
     public void Muerte() {
         //Destroy(this.gameObject);
+        //UnityEditor.EditorApplication.isPlaying = false;
+
         GameManager.instance.deathMenuAnim.SetTrigger("Show");
+
+        //Time.timeScale = 0f;
 
     }
 

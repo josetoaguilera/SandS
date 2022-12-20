@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System;
 
 public class EnemyController : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class EnemyController : MonoBehaviour
     private int[] Done = {0,0,0,0};
     private float timeNextEnemy;
 
+    [SerializeField] private GameObject MW;
+    public event EventHandler GanaJugador;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,14 @@ public class EnemyController : MonoBehaviour
     }
     public void addEnemigosEliminados(){
         EnemigosEliminados++;
+        //ACAAAAAA
+        if(EnemigosEliminados >= 2){
+            Debug.Log("Ganados");
+            //MW.GetComponent<ControladorWin>().setMWActive();
+            GanaJugador?.Invoke(this, EventArgs.Empty);
+
+            //Destroy(gameObject);
+        }
         Debug.Log("uno menos en la lista");
     }
 
@@ -42,7 +54,7 @@ public class EnemyController : MonoBehaviour
         for (int i = 0; i < HowMany; i++)
         {
             if (EnemyNumber == 0){
-                Vector2 pos = new Vector2(puntosSimples[Random.Range(0, puntosSimples.Length)].position.x, puntosSimples[Random.Range(0, puntosSimples.Length)].position.y);
+                Vector2 pos = new Vector2(puntosSimples[UnityEngine.Random.Range(0, puntosSimples.Length)].position.x, puntosSimples[UnityEngine.Random.Range(0, puntosSimples.Length)].position.y);
                 Instantiate(enemies[EnemyNumber], pos, Quaternion.identity);
             }
             if (EnemyNumber == 1){
@@ -55,9 +67,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(EnemigosEliminados >= 16){
+        if(EnemigosEliminados >= 2){//16){
             //mostrar el you win
-            Debug.Log("Ganaste");
+            //Debug.Log("Ganaste");
+            //MW.GetComponent<ControladorWin>().setMWActive();
+
         }
         timeNextEnemy += Time.deltaTime;
         if (timeNextEnemy >= BossBurst && 1 != Done[3])

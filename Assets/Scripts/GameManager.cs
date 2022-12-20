@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour 
+public class GameManager : MonoBehaviour
 {
 	public static GameManager instance;
 	private void Awake()
 	{
-		if (GameManager.instance != null) 
+		if (GameManager.instance != null)
 		{
 			Destroy (gameObject);
 			return;
-		}	
+		}
 
 		instance = this;
 		SceneManager.sceneLoaded += LoadState;
@@ -26,12 +26,13 @@ public class GameManager : MonoBehaviour
 
 	public Player player;
 	public Animator deathMenuAnim;
+	public Animator winMenuAnim;
 
 	public int pesos;
 	public int experience;
 
 	// Save State
-	/* 
+	/*
 	 * INT preferedSkin
 	 * INT pesos
 	 * INT experience
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (!PlayerPrefs.HasKey("SaveState"))
 			return;
-		
+
 		string[] data = PlayerPrefs.GetString("SaveState").Split('|');
 		pesos = int.Parse (data [1]);
 		experience = int.Parse (data [1]);

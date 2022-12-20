@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class Pausa : MonoBehaviour
 {
@@ -42,5 +43,9 @@ public class Pausa : MonoBehaviour
         scape = 0;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menú Principal");
+    }
+    public void Exit(){
+        UnityEditor.EditorApplication.isPlaying = false;
+        Application.Quit();
     }
 }

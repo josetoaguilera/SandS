@@ -7,7 +7,7 @@ public class SkeletonSword : MonoBehaviour
     public float Hitpoints;
     public float MaxHitpoints = 2;
     public HealthbarBehaviour Healthbar;
-    private GameObject controler;
+    public GameObject controler;
 
     // Start is called before the first frame update
     void Start()
