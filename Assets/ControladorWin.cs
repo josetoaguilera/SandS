@@ -62,7 +62,7 @@ public class ControladorWin : MonoBehaviour
     }
 
     public void Salir() {
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }

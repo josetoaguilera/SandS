@@ -45,7 +45,7 @@ public class Pausa : MonoBehaviour
         SceneManager.LoadScene("Menú Principal");
     }
     public void Exit(){
-        UnityEditor.EditorApplication.isPlaying = false;
+        //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 }

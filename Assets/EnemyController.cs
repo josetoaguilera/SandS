@@ -40,7 +40,7 @@ public class EnemyController : MonoBehaviour
     public void addEnemigosEliminados(){
         EnemigosEliminados++;
         //ACAAAAAA
-        if(EnemigosEliminados >= 2){
+        if(EnemigosEliminados >= 16){
             Debug.Log("Ganados");
             //MW.GetComponent<ControladorWin>().setMWActive();
             GanaJugador?.Invoke(this, EventArgs.Empty);
